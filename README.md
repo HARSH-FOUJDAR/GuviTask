@@ -1,4 +1,4 @@
-# AuthSystem
+# GV-Secured
 
 A simple user authentication system built using PHP, MySQL, HTML, CSS, JavaScript, jQuery, and Bootstrap.
 
