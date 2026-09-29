@@ -4,7 +4,6 @@ session_start();
 
 header("Content-Type: application/json");
 
-// Destroy all session data
 session_unset();
 session_destroy();
 
