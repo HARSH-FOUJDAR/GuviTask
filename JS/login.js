@@ -20,7 +20,10 @@ $(document).ready(function () {
       success: function (response) {
         if (response.success) {
           $("#message").html(
-            '<div class="alert alert-success">' + response.message + "</div>",
+            '<div class="alert alert-success">' +
+              "Login successful!" +
+              response.message +
+              "</div>",
           );
 
           setTimeout(function () {
@@ -28,7 +31,10 @@ $(document).ready(function () {
           }, 1000);
         } else {
           $("#message").html(
-            '<div class="alert alert-danger">' + response.message + "</div>",
+            '<div class="alert alert-danger">' +
+              "Login failed!" +
+              response.message +
+              "</div>",
           );
         }
       },
