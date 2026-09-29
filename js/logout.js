@@ -1,4 +1,4 @@
-$(document).ready(function () {
+(document).ready(function () {
   $("#logoutBtn").click(function () {
     $.ajax({
       url: "php/logout.php",
